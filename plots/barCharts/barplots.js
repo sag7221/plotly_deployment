@@ -90,6 +90,6 @@ function buildCharts(sample) {
       yaxis: {ticks: yticks, showticklabels: true}
     };
     // 10. Use Plotly to plot the data with the layout. 
-    Plotly.update("plotArea", barData, barLayout);
+    Plotly.newPlot("plotArea", barData, barLayout);
   });
 }
